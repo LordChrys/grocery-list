@@ -15,6 +15,13 @@ const newItem = (item)=>{
 }
 
 
+add.addEventListener("click", e =>{
+    e.preventDefault()
+    newItem.push(input);
+});
+
+
+
 /*
 DOM the add button
 DOM user input
@@ -22,4 +29,6 @@ DOM the whole list
 DOM list item for template
 
 Function to add user input to list 
+
+event listener for add button
 */ 
